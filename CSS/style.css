@@ -1,0 +1,234 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background-color: #0000001f;
+    opacity: 0.5;
+}
+
+header .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+header .nav li {
+    padding-right: 60px;
+}
+header .nav li a {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 4px;
+    transition: 0.5s;
+}
+header .nav li:hover a {
+   color: red;
+}
+.banner
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('../Imgs/car-help.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100dvh;
+    padding: 100px;
+}
+.banner .text h2 {
+    padding: 25px 0;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+.banner .text p {
+    padding: 30px 0;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 600;
+}
+.banner .stepItem ul {
+    display: flex;
+}
+.banner .stepItem ul li {
+    padding-right: 60px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* Start Services */
+.services {
+    padding: 60px 80px;
+    position: relative;
+}
+.services h2 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 800;
+}
+.services .box
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: 50px;
+}
+.services .box .srv .image {
+    width: 300px;
+    height: 240px;
+    margin-bottom: 25px;
+}
+.services .box .srv .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.services .box .srv .text {
+    max-width: 300px;
+}
+.services .box .srv .text h2 {
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    color: #2a1616fc;
+}
+.services .box .srv .text p {
+    line-height: 1.7;
+    font-size: 18px;
+    width: 100%;
+}
+.services .content {
+    margin: 60px 0;
+    position: relative;
+    width: 100%;
+    background-color: #f0ffff21;
+}
+.services .content .contentText {
+    width: 100%;
+    margin-bottom: 50px;
+}
+.services .content .contentText h1 {
+    font-size: 38px;
+    font-weight: 800;
+    color: #000000c7;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+.services .content .contentText p {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.services .content .srvNav 
+{
+    position: relative;
+}
+.services .content .srvNav  ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    gap: 50px;
+}
+.services .content .srvNav ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    width: 250px;
+    font-weight: 400;
+    letter-spacing: 1;
+    text-align: center;
+}
+.services .content .srvNav ul li img {
+    margin-bottom: 20px;
+    width: 50px;
+    height: 50px;
+}
+/* End Services */
+/* Start Testimonals */
+.testimonals {
+    padding: 100px;
+    position: relative;
+}
+
+.testimonals .contentText h1 {
+    margin-bottom: 25px;
+}
+.testimonals .box {
+    margin-top: 85px;
+}
+.testimonals .box .srv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.testimonals .box .srv .image {
+    padding-right: 50px;
+   
+}
+
+.testimonals .box .srv .image img {
+    width: 250px;
+    height: 225px;
+    object-fit: cover;
+   
+}
+ 
+.testimonals .box .srv .text {
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.testimonals .box .srv .text h2 {
+    font-size: 38px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.testimonals .box .srv .text span {
+    font-size: 16px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+.testimonals .box .srv .text img {
+    width: 170px;
+    height: 30px;
+    margin-bottom: 8px;
+}
+.testimonals .box .srv .text p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+/* End Testimonals */
+
+/* Start Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    /* height: 6vh; */
+    margin-top: 70px;
+}
+footer p {
+    font-size: 18px;
+    font-weight: 600;
+}
+/* End Footer */
